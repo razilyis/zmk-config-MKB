@@ -1,3 +1,5 @@
+#include <input/processors.dtsi>
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -32,7 +34,7 @@
         reg = <0>;
         spi-max-frequency = <1500000>;
         irq-gpios = <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        cpi = <800>;
+        cpi = <600>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -58,5 +60,10 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+        scroller {
+        layers = <3>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
+
 };
