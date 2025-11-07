@@ -40,8 +40,8 @@ layers:
   - LCTRL
   - LGUI
   - LALT
-  - {t: SPACE, h: Fnc}
-  - {t: LANGUAGE 1, h: Num}
+  - {t: LANGUAGE 1, h: Fnc}
+  - {t: LANGUAGE 2, h: Num}
   - BACKSPACE
   - {t: ENTER, h: Scr}
   - {t: LANGUAGE 2, h: BT}
@@ -354,3 +354,6 @@ layers:
   - END
   - A
   - B
+combos:
+- p: [40, 29]
+  k: SPACE
