@@ -355,5 +355,5 @@ layers:
   - A
   - B
 combos:
-- p: [40, 29]
+- p: [40, 39]
   k: SPACE

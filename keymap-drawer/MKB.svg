@@ -393,8 +393,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -667,8 +667,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -949,8 +949,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -1199,8 +1199,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -1444,8 +1444,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
@@ -1702,8 +1702,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="315" y="162" width="28" height="26" class="combo"/>
-<text x="329" y="175" class="combo tap">SPACE</text>
+<rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
+<text x="322" y="203" class="combo tap">SPACE</text>
 </g>
 </g>
 </g>
