@@ -21,21 +21,32 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        lang2 {
+            bindings = <&kp SPACE>;
+            key-positions = <40 29>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE  &kp Q     &kp W      &kp E     &kp R        &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P       &kp AT_SIGN
-&kp TAB     &kp A     &kp S      &kp D     &kp F        &kp G                 &kp H          &kp J        &kp K      &kp L             &kp MINUS   &kp TAB
-&kp LSHFT   &kp Z     &kp X      &kp C     &kp V        &kp B                 &kp N          &kp M        &kp COMMA  &kp DOT           &kp SLASH   &kp RIGHT_SHIFT
-&kp LCTRL   &kp LGUI  &kp LALT             &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER             &lt 5 LANGUAGE_2  &kp DELETE  &kp RCTRL
-&kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                         &kp HOME     &kp PG_UP  &kp ENTER         &kp PG_DN   &kp END
-                                 &kp A                                                                    &kp B
+&kp ESCAPE  &kp Q     &kp W      &kp E     &kp R             &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P       &kp AT_SIGN
+&kp TAB     &kp A     &kp S      &kp D     &kp F             &kp G                 &kp H          &kp J        &kp K      &kp L             &kp MINUS   &kp TAB
+&kp LSHFT   &kp Z     &kp X      &kp C     &kp V             &kp B                 &kp N          &kp M        &kp COMMA  &kp DOT           &kp SLASH   &kp RIGHT_SHIFT
+&kp LCTRL   &kp LGUI  &kp LALT             &lt 1 LANGUAGE_1  &lt 3 LANGUAGE_2      &kp BACKSPACE  &lt 2 ENTER             &lt 5 LANGUAGE_2  &kp DELETE  &kp RCTRL
+&kp LEFT    &kp UP    &kp SPACE  &kp DOWN  &kp RIGHT                                              &kp HOME     &kp PG_UP  &kp ENTER         &kp PG_DN   &kp END
+                                 &kp A                                                                         &kp B
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         function_layer {
