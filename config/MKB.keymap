@@ -26,7 +26,7 @@
 
         lang2 {
             bindings = <&kp SPACE>;
-            key-positions = <40 29>;
+            key-positions = <40 39>;
         };
     };
 
