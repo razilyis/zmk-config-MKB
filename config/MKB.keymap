@@ -109,12 +109,12 @@
         Mac-default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp E     &kp R             &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P                  &kp AT_SIGN
-&kp TAB     &kp A             &kp S      &kp D     &kp F             &kp G                 &kp H          &kp J        &kp K      &kp L             &kp MINUS              &kp TAB
-&kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C     &kp V             &kp B                 &kp N          &kp M        &kp COMMA  &kp DOT           &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
-&kp LCTRL   &kp LGUI          &kp LALT             &lt 5 LANGUAGE_1  &lt 7 LANGUAGE_2      &kp BACKSPACE  &lt 6 ENTER             &lt 8 LANGUAGE_2  &kp DELETE             &kp RCTRL
-&kp LEFT    &kp UP            &kp SPACE  &kp DOWN  &kp RIGHT                                              &kp HOME     &kp PG_UP  &kp ENTER         &kp PG_DN              &kp END
-                                         &kp A                                                                         &kp B
+&kp ESCAPE  &kp Q             &kp W         &kp E     &kp R             &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P                  &kp AT_SIGN
+&kp TAB     &kp A             &kp S         &kp D     &kp F             &kp G                 &kp H          &kp J        &kp K      &kp L             &kp MINUS              &kp TAB
+&kp LSHFT   &mt LEFT_SHIFT Z  &kp X         &kp C     &kp V             &kp B                 &kp N          &kp M        &kp COMMA  &kp DOT           &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
+&kp LCTRL   &kp LEFT_ALT      &kp LEFT_GUI            &lt 5 LANGUAGE_1  &lt 7 LANGUAGE_2      &kp BACKSPACE  &lt 6 ENTER             &lt 8 LANGUAGE_2  &kp DELETE             &kp RCTRL
+&kp LEFT    &kp UP            &kp SPACE     &kp DOWN  &kp RIGHT                                              &kp HOME     &kp PG_UP  &kp ENTER         &kp PG_DN              &kp END
+                                            &kp A                                                                         &kp B
             >;
 
             sensor-bindings =
