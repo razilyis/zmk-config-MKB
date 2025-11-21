@@ -38,8 +38,8 @@ layers:
   - {t: SLASH, h: RIGHT SHIFT}
   - RIGHT SHIFT
   - LCTRL
-  - LGUI
-  - LALT
+  - LEFT ALT
+  - LEFT GUI
   - {t: LANGUAGE 1, h: Fnc}
   - {t: LANGUAGE 2, h: Num}
   - BACKSPACE
