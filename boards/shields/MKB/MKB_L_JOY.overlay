@@ -26,7 +26,7 @@
             io-channels = <&adc 2>;
             mv-mid = <1600>;
             mv-min-max = <1600>;
-            mv-deadzone = <88>;
+            mv-deadzone = <10>;
             scale-multiplier = <1>;
             scale-divisor = <800>;
             evt-type = <INPUT_EV_REL>;
@@ -36,7 +36,7 @@
             io-channels = <&adc 3>;
             mv-mid = <1600>;
             mv-min-max = <1600>;
-            mv-deadzone = <88>;
+            mv-deadzone = <10>;
             scale-multiplier = <1>;
             scale-divisor = <800>;
             evt-type = <INPUT_EV_REL>;
@@ -56,4 +56,5 @@
     };
 
 };
+
 
