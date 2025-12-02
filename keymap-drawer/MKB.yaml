@@ -355,7 +355,7 @@ layers:
   - A
   - B
 combos:
-- p: [40, 39]
+- p: [16, 15]
   k: SPACE
 - p: [13, 14]
   k: TAB
@@ -363,3 +363,5 @@ combos:
   k: Sft+TAB
 - p: [1, 2]
   k: ESCAPE
+- p: [19, 20]
+  k: ''
