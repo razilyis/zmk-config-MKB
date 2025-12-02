@@ -25,7 +25,7 @@
         compatible = "zmk,combos";
 
         lang2 {
-            bindings = <&kp SPACE>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <16 15>;
         };
 
@@ -45,7 +45,7 @@
         };
 
         lang1 {
-            bindings = <&none>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <19 20>;
         };
     };
