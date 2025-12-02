@@ -356,7 +356,7 @@ layers:
   - B
 combos:
 - p: [16, 15]
-  k: SPACE
+  k: LANGUAGE 2
 - p: [13, 14]
   k: TAB
 - p: [21, 22]
@@ -364,4 +364,4 @@ combos:
 - p: [1, 2]
   k: ESCAPE
 - p: [19, 20]
-  k: ''
+  k: LANGUAGE 1
