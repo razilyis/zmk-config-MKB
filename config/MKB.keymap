@@ -26,7 +26,7 @@
 
         lang2 {
             bindings = <&kp SPACE>;
-            key-positions = <40 39>;
+            key-positions = <16 15>;
         };
 
         tab {
@@ -42,6 +42,11 @@
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
+        };
+
+        lang1 {
+            bindings = <&none>;
+            key-positions = <19 20>;
         };
     };
 
