@@ -52,22 +52,31 @@
 
     macros {
         // Windows用：Alt + Grave (~)
+
         ime_tog: ime_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp GRAVE>
-                , <&macro_release &kp LALT>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp GRAVE>,
+                <&macro_release>,
+                <&kp LALT>;
         };
+
         // macOS用：Ctrl + Space
+
         mac_ime: mac_ime_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp SPACE>
-                , <&macro_release &kp LCTRL>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp SPACE>,
+                <&macro_release>,
+                <&kp LCTRL>;
         };
     };
 
@@ -77,7 +86,7 @@
         Win-default_layer {
             label = "Def";
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp E     &kp R        &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P                  &trans
+&kp ESCAPE  &kp Q             &kp W      &kp E     &kp R        &kp T                 &kp Y          &kp U        &kp I      &kp O             &kp P                  &ime_tog
 &kp TAB     &kp A             &kp S      &kp D     &kp F        &kp G                 &kp H          &kp J        &kp K      &kp L             &kp MINUS              &kp TAB
 &kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C     &kp V        &kp B                 &kp N          &kp M        &kp COMMA  &kp DOT           &mt RIGHT_SHIFT SLASH  &kp RIGHT_SHIFT
 &kp LCTRL   &kp LGUI          &kp LALT             &lt 1 SPACE  &lt 3 LANGUAGE_2      &kp BACKSPACE  &lt 2 ENTER             &lt 8 LANGUAGE_2  &kp DELETE             &kp RCTRL
