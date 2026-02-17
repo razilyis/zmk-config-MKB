@@ -33,7 +33,7 @@ include:
 
   - board: seeeduino_xiao_ble
     shield: MKB_L_Base MKB_L_FGP rgbled_adapter nice_oled
-    snippet: Default zmk-usb-logging studio-rpc-usb-uart
+    snippet: Default zmk-usb-logging
     artifact-name: MKB_L_MODULE_FGP
 
 # Right Shields

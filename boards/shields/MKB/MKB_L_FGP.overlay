@@ -1,3 +1,4 @@
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
 
 &pinctrl {
     uart0_default: uart0_default {
@@ -32,6 +33,7 @@
     };
 };
 
+// パーティションの定義（既存の構成とマージされるように修正）
 &flash0 {
     partitions {
         compatible = "fixed-partitions";
@@ -43,7 +45,7 @@
             reg = <0x000e4000 0x00008000>;
         };
 
-        storage_partition: partition@ec000 {
+        storage_partition_tp: partition@ec000 {
             label = "storage";
             reg = <0x000ec000 0x00008000>;
         };
