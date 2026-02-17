@@ -16,9 +16,9 @@ manifest:
       url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      # remote: zmkfirmware
-      remote: te9no
-      revision: main
+      remote: zmkfirmware
+      #remote: te9no
+      revision: v0.3.0
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
