@@ -1,3 +1,5 @@
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
+
 &pinctrl {    
     i2c1_default: i2c1_default {
         group1 {

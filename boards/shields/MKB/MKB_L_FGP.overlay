@@ -24,14 +24,7 @@
     pinctrl-names = "default", "sleep";
 };
 
-/ {
-    behaviors {
-        tp: tp {
-            compatible = "zmk,behavior-touchpass";
-            #binding-cells = <0>;
-        };
-    };
-};
+// パーティションの定義
 
 // パーティションの定義（既存の構成とマージされるように修正）
 &flash0 {
