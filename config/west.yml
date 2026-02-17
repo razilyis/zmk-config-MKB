@@ -47,8 +47,7 @@ manifest:
       remote: te9no
       revision: main
     - name: zmk-module-TouchPass
-      remote: razilyis
-      revision: main
+      path: /Users/ryosaitoh/Desktop/git/zmk-module-TouchPass
   self:
     path: config
     
